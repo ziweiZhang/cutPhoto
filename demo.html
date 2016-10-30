@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/demo.css">
+    <title>cut photo demo</title>
+</head>
+<body >
+    <div class="canvas-wrap">
+        <canvas id="canvas">
+        </canvas>
+        <div id="uploading"></div>
+    </div>
+    <ul class="clearfix">
+        <li><input type="button" name="bigger" value="+"></li>
+        <li><input type="button" name="cut" value="cut"></li>
+        <li><input type="button" name="rotate" value="rotate"></li>
+        <li><input type="button" name="reselect" value="reselect"><input type="file"></li>
+        <li><input type="button" name="reset" value="reset"></li>
+        <li><input type="button" name="smaller" value="-"></li>
+    </ul>
+
+    <script src="js/zepto-1.1.0.all.min.js"></script>
+    <script type="text/javascript" src="js/exif.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/cutPhoto.js"></script>
+</body>
+</html>
