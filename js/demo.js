@@ -103,15 +103,6 @@
     }
 
     function downloadFile(fileName, content) {
-
-        var aLink = document.createElement('a');
-        var blob = base64Img2Blob(content); //new Blob([content]);
-
-        var evt = document.createEvent("HTMLEvents");
-        evt.initEvent("click", false, false); //initEvent 不加后两个参数在FF下会报错
-        aLink.download = fileName;
-        aLink.href = URL.createObjectURL(blob);
-
-        aLink.dispatchEvent(evt);
+        $("img").attr("src",content);
     }
 })();

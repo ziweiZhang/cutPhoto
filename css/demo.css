@@ -150,3 +150,14 @@ input[type=file] {
     height: 6px;
     border-radius: 50%;
 }
+img{
+    display: none;
+}
+.pc img{
+    display:block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    right: 50px;
+}
