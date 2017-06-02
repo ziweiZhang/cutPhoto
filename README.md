@@ -1,11 +1,11 @@
 # cutPhoto
 图片处理
-###功能
+### 功能
 支持裁剪、旋转、缩放、压缩图片
-###兼容性
+### 兼容性
 兼容PC端主流浏览器和移动端
 
-####传入的参数
+#### 传入的参数
      @param {[object]} params [可传参数]
       {
           sw:300,                  //裁剪区宽度
@@ -19,7 +19,7 @@
           getImgUrl:function,      //获取裁剪后的图片url(base64编码)
           uploadDone:function      //图片加载完执行的方法
       }
-####可使用的方法
+#### 可使用的方法
     @return {[object]} 返回的对象
       {
          setPhotoUrl:function,    //设置照片的url，不支持跨域
