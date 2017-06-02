@@ -61,7 +61,7 @@
             try{
                 cutPhoto.cut();
             }catch(e){
-                console.log("这个功能需要打包代码到本地");
+                alert("这个功能需要打包代码到本地");
             }
         }).on("click", "[name=rotate]", function() {
             cutPhoto.rotate();
