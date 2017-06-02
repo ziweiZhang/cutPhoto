@@ -58,7 +58,11 @@
 
     (function bind() {
         $("ul").on("click", "[name=cut]", function() {
-            cutPhoto.cut();
+            try{
+                cutPhoto.cut();
+            }catch(e){
+                console.log("这个功能需要打包代码到本地");
+            }
         }).on("click", "[name=rotate]", function() {
             cutPhoto.rotate();
         }).on("click", "[name=bigger]", function() {
