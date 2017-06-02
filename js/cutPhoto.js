@@ -180,6 +180,7 @@ var CutPhoto = function(params) {
     }
 
     function dealPhoto(photo) {
+        photo.crossOrigin = "anonymous";
         EXIF.getData(photo, function() {
             //0°~1 顺时针90°~6 逆时针90°~8 180°~3  
             var a = EXIF.getTag(this, "Orientation");
