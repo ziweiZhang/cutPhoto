@@ -31,4 +31,4 @@
          change:function          //设置原图文件(一般通过input[type=file]选择)
      }
     
-具体使用方法可参见demo.html
+具体使用方法可参见index.html
